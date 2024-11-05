@@ -66,6 +66,10 @@ This is a recommended workflow, especially for people who are on their beginning
 
 - Dealing with missing values: remove (rows, or columns) or impute data
 - Dealing with extreme values or outliers: remove data
+<<<<<<< HEAD
+=======
+- Transform data where necessary, e.g. to log or sqrt to try to get some feature closer to normal distribution, or binning
+>>>>>>> 87408d9 (Initial commit)
 - How much data did you throw away? 😅
 
 ### Relationships in the data

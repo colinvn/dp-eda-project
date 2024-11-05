@@ -10,11 +10,17 @@ Template for creating ds simple projects
 
 ## Setup
 
+<<<<<<< HEAD
 ## MAC 
 
  Install the virtual environment and the required packages by following commands:
 
     ```
+=======
+ Install the virtual environment and the required packages by following commands:
+
+    ```BASH
+>>>>>>> 87408d9 (Initial commit)
     pyenv local 3.11.3
     python3 -m venv .venv
     source .venv/bin/activate
