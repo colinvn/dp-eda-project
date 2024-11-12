@@ -9,6 +9,7 @@ The task was to conduct exploratory data analysis (EDA) in a Jupyter notebook wi
 
 This repository contains:
 - `EDA.ipynb`: Jupyter notebook with the completed EDA task; this is the main file
+   - note that when opening the file in git online, the key visualisation (a folium map) is not visible to reduce the file size. To see it, run the notebook and comment IN the map (`m`).
 - `requirements.txt`: lists the required Python packages (see below on how to install)
 - dir `data`: folder with the original housing data; further data will be loaded into this directory by the notebook
 - `EDA-slides.pdf`: a reduced form of the final presentation
@@ -52,4 +53,4 @@ when you set up the environment. After the notebook was successfully run, do
    jupyter nbconvert EDA.ipynb --to slides --no-input --post serve
    ```
 
-to create the slides. 
+to create the slides.
