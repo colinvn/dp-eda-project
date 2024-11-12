@@ -147,3 +147,4 @@ models/*.pkl
 
 # own
 EDA.slides.html
+backup/
