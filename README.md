@@ -26,32 +26,11 @@ The findings were presented jusing Jupyter slides. Instructions in re-creating t
 
 ## Setup
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-## MAC 
-
- Install the virtual environment and the required packages by following commands:
-
-    ```
-=======
- Install the virtual environment and the required packages by following commands:
-
-    ```BASH
->>>>>>> 87408d9 (Initial commit)
-    pyenv local 3.11.3
-    python3 -m venv .venv
-    source .venv/bin/activate
-    pip install --upgrade pip
-    pip install -r requirements.txt
-    ```
-### **`WindowsOS`** type the following commands :
-=======
 Requirements:
 - pyenv
 - python==3.11.3
 
 Install the virtual environment and the required packages by following commands:
->>>>>>> fa8d48b (all new try again)
 
    ```BASH
    pyenv local 3.11.3
@@ -73,4 +52,4 @@ when you set up the environment. After the notebook was successfully run, do
    jupyter nbconvert EDA.ipynb --to slides --no-input --post serve
    ```
 
-to create the slides.
+to create the slides. 
