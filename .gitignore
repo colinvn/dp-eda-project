@@ -144,3 +144,6 @@ models/*.pkl
 
 # vscode Stuff
 .vscode
+
+# own
+EDA.slides.html

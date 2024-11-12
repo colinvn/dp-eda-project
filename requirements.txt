@@ -3,7 +3,12 @@ seaborn==0.13.2
 jupyterlab==4.0.1
 ipywidgets==8.0.6
 jupyterlab-dash==0.1.0a3
+jupyter_contrib_nbextensions==0.7.0
+notebook==6.4.12
 python-dotenv==1.0.0
 psycopg2-binary==2.9.7
 SQLAlchemy==2.0.15
 missingno==0.5.2
+geopandas==1.0.1
+folium==0.18.0
+scikit-learn==1.5.1

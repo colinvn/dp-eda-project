@@ -1,20 +1,43 @@
-[![Shipping files](https://github.com/neuefische/ds-eda-project-template/actions/workflows/workflow-03.yml/badge.svg?branch=main&event=workflow_dispatch)](https://github.com/neuefische/ds-eda-project-template/actions/workflows/workflow-03.yml)
-# ds-project-template
+# Exploratory Data Analysis (EDA) project
 
-Template for creating ds simple projects
+This repository was created as part of a part-time data science bootcamp by neue fische. Students were provided with a dataset on house prices in King County (Washington, USA) found in `data/King_County_House_prices_dataset.csv`.
 
-## Requirements
+The task was to conduct exploratory data analysis (EDA) in a Jupyter notebook with a particular client's profile in mind. The full assignment can be found in `resourceses/assignment.md`. The client chosen for this notebook was _Amy Williams_, whose profile will be described below. The time allotment was five half-days.
 
-- pyenv
-- python==3.11.3
+## Content
+
+
+This repository contains:
+- `EDA.ipynb`: Jupyter notebook with the completed EDA task; this is the main file
+- `requirements.txt`: lists the required Python packages (see below on how to install)
+- dir `data`: folder with the original housing data; further data will be loaded into this directory by the notebook
+- `EDA-slides.pdf`: a reduced form of the final presentation
+   - the actual presentation was created using Jupyter slides to allow for interactivity
+   - see the instructions below on how to re-create the interactive slides (requires running the notebook)
+- dir `resources`: folder with further material, in particular
+   - images used for the slides
+   - `assignment.md`: original task description
+   - `workflow.md`: further task explanations
+   - `column_names.md`: original column data description
+   - dir `optional`: supporting scripts that were not used
+   - dir `starters`: original `README-starter.md`, `EDA-starter.ipynb`, and `requirements-starter.txt` files which have been changed as part of the exercise
+
+The findings were presented jusing Jupyter slides. Instructions in re-creating the slides can be found below. The notebook first goes through the steps of EDA in iterated cycles of assessment/understanding, preparation/cleaning, analysis, and visualisation. At the end, cells for a slide show are set up.
 
 ## Setup
 
+<<<<<<< HEAD
+<<<<<<< HEAD
 ## MAC 
 
  Install the virtual environment and the required packages by following commands:
 
     ```
+=======
+ Install the virtual environment and the required packages by following commands:
+
+    ```BASH
+>>>>>>> 87408d9 (Initial commit)
     pyenv local 3.11.3
     python3 -m venv .venv
     source .venv/bin/activate
@@ -22,40 +45,32 @@ Template for creating ds simple projects
     pip install -r requirements.txt
     ```
 ### **`WindowsOS`** type the following commands :
+=======
+Requirements:
+- pyenv
+- python==3.11.3
 
+Install the virtual environment and the required packages by following commands:
+>>>>>>> fa8d48b (all new try again)
 
-- `Step_1:` Update Chocolatey and install Node by following commands:
-    ```sh
-    choco upgrade chocolatey
-    choco install nodejs
-    ```
-
-- `Step_2:` Install the virtual environment and the required packages by following commands.
-
-   For `PowerShell` CLI :
-
-    ```PowerShell
-    pyenv local 3.11.3
-    python -m venv .venv
-    .venv\Scripts\Activate.ps1
-    pip install --upgrade pip
-    pip install -r requirements.txt
-    ```
-
-    For `Git-Bash` CLI :
-  
-    ```BASH
-    pyenv local 3.11.3
-    python -m venv .venv
-    source .venv/Scripts/activate
-    pip install --upgrade pip
-    pip install -r requirements.txt
-    ```
- 
-
- **`Note:`**
-    If you encounter an error when trying to run `pip install --upgrade pip`, try using the following command:
-
-   ```Bash
-   python.exe -m pip install --upgrade pip
+   ```BASH
+   pyenv local 3.11.3
+   python3 -m venv .venv
+   source .venv/bin/activate
+   pip install --upgrade pip
+   pip install -r requirements.txt
    ```
+
+Afterwards, open and run `EDA.ipynb`. In addition, if you want to create Jupyter slides, run
+
+   ```BASH
+   jupyter contrib nbextension install --sys-prefix
+   ```
+
+when you set up the environment. After the notebook was successfully run, do
+
+   ```BASH
+   jupyter nbconvert EDA.ipynb --to slides --no-input --post serve
+   ```
+
+to create the slides.
