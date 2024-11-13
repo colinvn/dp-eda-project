@@ -146,5 +146,5 @@ models/*.pkl
 .vscode
 
 # own
-EDA.slides.html
+# EDA.slides.html # large file size, maybe exclude?
 backup/
