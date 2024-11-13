@@ -4,16 +4,18 @@ This repository was created as part of a part-time data science bootcamp by neue
 
 The task was to conduct exploratory data analysis (EDA) in a Jupyter notebook with a particular client's profile in mind. The full assignment can be found in `resourceses/assignment.md`. The client chosen for this notebook was _Amy Williams_, whose profile will be described below. The time allotment was five half-days.
 
-## Content
+The final presentation (Jupyter slides) can be accessed at this repo's Git Page: [https://colinvn.github.io/dp-eda-project/](https://colinvn.github.io/dp-eda-project/)
 
+## Content
 
 This repository contains:
 - `EDA.ipynb`: Jupyter notebook with the completed EDA task; this is the main file
    - note that when opening the file in git online, the key visualisation (a folium map) is not visible to reduce the file size. To see it, run the notebook and comment IN the map (`m`).
+- dir `docs`: folder hosting the Git Page with the final [presentation](https://colinvn.github.io/dp-eda-project/)
 - `requirements.txt`: lists the required Python packages (see below on how to install)
 - dir `data`: folder with the original housing data; further data will be loaded into this directory by the notebook
 - `EDA-slides.pdf`: a reduced form of the final presentation
-   - the actual presentation was created using Jupyter slides to allow for interactivity
+   - the actual presentation was created using Jupyter slides to allow for interactivity and can be accessed [here](https://colinvn.github.io/dp-eda-project/)
    - see the instructions below on how to re-create the interactive slides (requires running the notebook)
 - dir `resources`: folder with further material, in particular
    - images used for the slides
@@ -53,4 +55,5 @@ when you set up the environment. After the notebook was successfully run, do
    jupyter nbconvert EDA.ipynb --to slides --no-input --post serve
    ```
 
-to create the slides.
+to create the slides. Otherwise, you can view the final presentation [here](https://colinvn.github.io/dp-eda-project/
+).
