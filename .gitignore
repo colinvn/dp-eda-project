@@ -148,3 +148,4 @@ models/*.pkl
 # own
 # EDA.slides.html # large file size, maybe exclude?
 backup/
+docs/notes.txt
